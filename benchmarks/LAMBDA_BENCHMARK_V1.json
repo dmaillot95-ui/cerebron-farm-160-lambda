@@ -1,0 +1,30 @@
+{
+  "schema": "LAMBDA_BENCHMARK_V1",
+  "status": "FROZEN_TEMPLATE_NO_RESULTS",
+  "role_id": "TRANSFORMATION_COMPOSER",
+  "domains": [
+    "mapping_composition",
+    "procedure_design",
+    "algorithm_structure",
+    "reusable_transform",
+    "input_output_contract",
+    "composition_validity"
+  ],
+  "m6_rule": "M6_NEVER_IN_TRAIN",
+  "modes": [
+    "BASE_MODEL_ALONE",
+    "LAMBDA_PRETRAIN_SCAFFOLD",
+    "LAMBDA_TRAINED",
+    "LAMBDA_PLUS_MINIMAL_COALITION"
+  ],
+  "metrics": [
+    "role_accuracy",
+    "critical_error_rate",
+    "calibration",
+    "transfer",
+    "regression",
+    "latency",
+    "provenance_completeness"
+  ],
+  "result_status": "NO_EXECUTED_BASELINE_YET"
+}
